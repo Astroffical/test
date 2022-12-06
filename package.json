@@ -1,0 +1,24 @@
+{
+  "name": "invites",
+  "version": "1.0.0",
+  "description": "Raven sunucusu için yapılan invite botu!",
+  "main": "index.js",
+  "author": "Ly3ssia",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "croxydb": "^0.0.7",
+    "discord-sync-commands": "^0.3.0",
+    "discord.js": "^14.4.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "invite-module": "^1.0.5",
+    "nodemon": "^2.0.15",
+    "quickmongo": "^5.1.2",
+    "raven.database": "^1.1.9"
+  }
+}
